@@ -1,0 +1,14 @@
+Bibliographic citation:
+    - https://github.com/KAIR-ISZ/public_lectures/blob/master/Analiza%20i%20Bazy%20Danych%202021/Lab%202/Datasets/tb.csv
+    - available also in ../Original Data/tb.csv
+
+Date of obtaining the data: 05.11.2022
+
+How the data can be obtained:
+    - go to https://github.com/KAIR-ISZ/public_lectures/blob/master/Analiza%20i%20Bazy%20Danych%202021/Lab%202/Datasets/tb.csv, then open in raw mode and save with .csv extension
+    - go to ../Original Data/tb.csv and copy this file
+
+The tb.csv file represents data on tuberculosis within different patients groups. The data codes also information in columns about the age, gender and
+contains also a lot of empty spaces.
+
+The data itself is also in importable format so there's no need to add any additional importable formats of the data.
