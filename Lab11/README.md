@@ -12,7 +12,7 @@ Odp: 8175032
 
 Zadanie 4.<br />
 Jaka jest populacja Bronxu, Manhattanu i Queens?<br />
-Odp: 24075
+Odp: 5201602
 
 Zadanie 5.<br />
 Liczba neighbourhoods dla Bronx: 0<br />
