@@ -16,7 +16,7 @@ aggregated_iris <- iris %>% aggregate(. ~Species, ., mean)
 # Zadanie 2 PLOT
 # install.packages("ggplot2 ")
 library(ggplot2)
-my_plot <- ggplot(data = iris, aes(x = Sepal.Width)) + geom_histogram(aes(fill=Species, color=Species), bins = 18) + geom_vline(data=aggregated_iris, aes(xintercept=Sepal.Width, color=Species), linetype="dashed") + labs(x='x', y='y', title='title')
+my_plot <- ggplot(data = iris, aes(x = Petal.Width)) + geom_histogram(aes(fill=Species, color=Species), bins = 18) + geom_vline(data=aggregated_iris, aes(xintercept=Petal.Width, color=Species), linetype="dashed") + labs(x='x', y='y', title='Petal')
 ggsave("~/Desktop/AiBD/Piotr_Wolnik_AiBD/Lab14/plot1.jpg", plot = my_plot)
 
 library("GGally")
